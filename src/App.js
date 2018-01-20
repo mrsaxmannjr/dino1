@@ -3,8 +3,9 @@ import './App.css';
 import { Header } from "./Header.js"
 import { Section } from "./Section.js"
 import { Aside } from "./Aside.js"
+import { Footer } from "./Footer";
 
-export class App extends Component {
+export class App extends Component { 
   constructor(props) {
     super(props)
     this.state = {
@@ -32,9 +33,7 @@ export class App extends Component {
           <Section listings={this.state.data} />
           <Aside getFormData={this.getData} />
         </main>
-        <footer>
-          <small>Copyright 2018</small>
-        </footer>
+        <Footer />
       </div>
     );
   }

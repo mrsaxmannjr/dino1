@@ -16,7 +16,7 @@ export class Form extends React.Component {
       pay: event.target[1].value,
       description: event.target[2].value,
       interested: []
-    };
+    }; 
     this.props.getFormData(newObj);
     event.target.reset();
   }

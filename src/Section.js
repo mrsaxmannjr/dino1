@@ -8,7 +8,7 @@ export class Section extends React.Component {
         <small>{data.pay}</small>
         <p>{data.description}</p>
         <small>{data.interested.length} dinos are interested in this job</small>
-      </li>
+      </li> 
     )
   }
 
